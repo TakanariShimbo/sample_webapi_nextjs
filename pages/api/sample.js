@@ -13,7 +13,7 @@ function post_action(req) {
       'value2': value2
   };
   return data_send;
-}
+};
 
 
 export default function sample_api(req, res) {
@@ -22,5 +22,5 @@ export default function sample_api(req, res) {
       res.status(200).json(data_send);
   } else {
       res.status(400).json({}); 
-  }
-}
+  };
+};
